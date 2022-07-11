@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Final Assignments </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <section class="sec-1">
+            <header>
+            <nav class="navbar">
+              <img id="logo" src="./WhatsApp Image 2022-07-11 at 9.55.41 PM (1).jpeg">
+              <div class="navbar_link">
+                <a href="#" class="link" id="home">HOME</a>
+                <a href="#" class="link">PAGES</a>
+                <a href="#" class="link">PORTFOLIOS</a>
+                <a href="#" class="link">HEADERS</a>
+                <a href="#" class="link">ELEMENTS</a>
+                <a href="#" class="link">BLOGS</a>
+                 </div>
+                 <div class="icon">
+                <i class="fa-solid fa-magnifying-glass" ></i>&nbsp;&nbsp;
+                <i class="fa-solid fa-cart-plus"></i></i>&nbsp;&nbsp;
+                <i class="fa-solid fa-bars"></i></i>&nbsp;&nbsp;
+              </div>
+            </nav>
+          </header> 
+          <div class="content">
+          <h1>Perfect images <br> for perfect websites</h1>
+          </div>
+          <div class="content1">
+            <p>Proin laoreet scelerisque  sagittis.Aliquam molesite faucibus semper.<br>Mauris pretium,urna venenatis condimentum.</p>
+
+          </div>
+          <div class="button">
+            <button id="btn1">EXPLORE MORE</button>
+            <button id="btn2">BUY NOW</button>
+          </div>
+        </section>
+       
+  
+        <div class="footer">
+          <footer>
+            <h1 id="name"></h1>
+            <h1 id="uro"></h1>
+            <h1 id="col"></h1>
+            <h1 id="date"></h1>
+        </footer>
+        <script>
+           document.getElementById("name").textContent="Harshika Saxena";
+            document.getElementById("uro").textContent="201500282";
+            document.getElementById("col").textContent="GLA University, Mathura";
+            window.onload=date;
+            function date(){
+                var d=new Date().toLocaleDateString();
+                var l=d.split("/");
+                var day=l[1] ,month=l[0],year=l[2];
+                if(day.length<2)day="0"+day;
+                if(month.length<2)month="0"+month;
+                var date=day+"-"+month+"-"+year;
+            document.getElementById("date").textContent=`${date}`;
+            }
+        </script>
+        </div>
+
+    </body>
+    </html>

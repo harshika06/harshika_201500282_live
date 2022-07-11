@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.sec-1{
+    background-image: url(./img10.jpg) ;
+    min-height:100vh;
+   background-position: center;
+    background-size: cover;
+    color:white;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:16px 48px;
+    height:60px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.navbar_link{
+    display: flex;
+   justify-content: center;
+   margin-left: 50px;
+   font-size: 18px;
+    gap:20px;
+    font-weight: 500;
+}
+
+
+#home{
+    color:red;
+    text-decoration: underline;
+}
+ .content h1{
+    font-size: 60px;
+    font: 600;
+    color:white;
+
+}
+.content{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+
+}
+.content1{
+  
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+ #logo{
+    margin-top: 10px;
+    width:10%;
+    
+
+}
+
+ #btn1,#btn2{
+  
+    border-radius: 30px;
+    width:150px;
+   height:50px;
+   font-weight: 600;
+   
+ }
+ #btn1{
+    background-color:rgb(234, 108, 108);
+    color: white;
+    border: none;
+ }
+ #btn2{
+   background-color: transparent;
+    color: white;
+    border: solid 2px white;
+ }
+
+.button{
+    border-radius: 20px;;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+  
+
+}
+footer{
+    background-color: rgb(183, 94, 123);
+    color:white;
+    position: absolute;
+    bottom: 0px;
+    height:60px;
+    width:100%;
+}
+.navbar .link:hover{
+color:blue;
+transition-duration: 1s;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    gap:40px;
+    font-size:12px;
+    font-weight: 0;
+    align-items: center;
+
+}
+.icon:hover{
+    color:blue;
+    transition-duration: 1s;
+}
